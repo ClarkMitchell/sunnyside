@@ -19,3 +19,6 @@
 
 [[plugins]]
   package = "@netlify/plugin-a11y"
+
+[[plugins]]
+  package = "@helloample/netlify-plugin-replace"
