@@ -1,6 +1,21 @@
 [build]
-publish = "public"
-command = "npm run lint"
+  publish = "public"
+  command = "npm run lint"
 
 [[plugins]]
   package = "@netlify/plugin-lighthouse"
+
+[[plugins]]
+  package = "@netlify/plugin-sitemap"
+
+[[plugins]]
+  package = "netlify-plugin-submit-sitemap"
+
+[[plugins]]
+  package = "netlify-plugin-checklinks"
+
+[[plugins]]
+  package = "netlify-plugin-image-optim"
+
+[[plugins]]
+  package = "@netlify/plugin-a11y"
