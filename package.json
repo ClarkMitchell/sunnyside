@@ -1,0 +1,25 @@
+{
+  "name": "sunnyside",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npm run lint:js && npm run lint:html && npm run lint:css",
+    "lint:js": "eslint public/**/*.js --fix",
+    "lint:html": "hint public",
+    "lint:css": "stylelint 'public/**/*.css'"
+  },
+  "author": "Clark Gunn",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-html": "^6.2.0",
+    "eslint-plugin-import": "^2.25.4",
+    "hint": "^6.1.9",
+    "prettier": "^2.5.1",
+    "stylelint": "^14.5.3",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^25.0.0"
+  }
+}

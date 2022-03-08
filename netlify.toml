@@ -1,0 +1,6 @@
+[build]
+publish = "public"
+command = "npm run lint"
+
+[[plugins]]
+  package = "@netlify/plugin-lighthouse"
